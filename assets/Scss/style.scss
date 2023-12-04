@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+$logowidth : 5em;
+$logoheight : 2em;
+
+.logo {
+    width: $logowidth;
+    height: $logoheight;
+}
+
+.avatar {
+    height: $logoheight;
+    width: 2em;
+}
