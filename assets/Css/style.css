@@ -17,6 +17,10 @@ body {
   font-size: 1.5em;
 }
 
+.service {
+  width: 5em;
+}
+
 .footerwidth {
   font-size: 0.6em;
 }
