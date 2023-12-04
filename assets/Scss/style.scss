@@ -16,7 +16,7 @@ $carouselheight : 9.375em;
 
 .avatar {
     height: $logoheight;
-    width: 2em;
+    width: $logoheight;
 }
 
 .icons {
@@ -43,6 +43,24 @@ $carouselheight : 9.375em;
 .footerli {
     text-decoration: none;
 }
+
+.avataredits {
+    width: $logowidth*2;
+}
+
+.student {
+    width: $logowidth*5;
+}
+
+::placeholder {
+    color: white;
+}
+
+input[type=checkbox] {
+    accent-color: grey;
+    width: 2em;
+  }
+
 
 $itemGrow: 1.2;
 $duration: 250ms;

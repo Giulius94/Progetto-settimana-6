@@ -38,6 +38,23 @@ body {
   text-decoration: none;
 }
 
+.avataredits {
+  width: 10em;
+}
+
+.student {
+  width: 25em;
+}
+
+::placeholder {
+  color: white;
+}
+
+input[type=checkbox] {
+  accent-color: grey;
+  width: 2em;
+}
+
 html {
   scroll-behavior: smooth;
 }
